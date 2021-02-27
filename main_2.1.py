@@ -6,36 +6,44 @@ def f21(inp):
 
 # print('st 3 = ', inp)
 
-    if item_list[3] == '2017':
+    if item_list[3] == 'pawn':
 
-        if item_list[1] == 'click':
+        if item_list[0] == 'tcsh':
 
-            if item_list[0] == 'yang':
-                print('1')
+            if  item_list[1] == '1994':
+                print(0)
+            elif item_list[1] == '2020':
+                print(1)
+            else:
+                print(2)
 
-            elif item_list[0] == 'sqlpl':
-                print('0')
+        elif item_list[0] == 'chuck':
 
-        elif item_list[1] == 'xtend':
+            if item_list[2] == 'haml':
+                print(3)
+            elif item_list[2] == 'toml':
+                print(4)
+            else:
+                print(5)
 
-            if item_list[0] == 'yang':
-                print('3')
+        else:
 
-            elif item_list[0] == 'sqlpl':
-                print('2')
+            if item_list[1] == '1994':
+                print(6)
+            elif item_list[1] == '2020':
+                print(7)
+            else:
+                print(8)
 
-    elif item_list[3] == '1958':
 
-        if item_list[1] == 'sqlpl':
+    elif item_list[3] == 'csv':
 
-            if item_list[0] == 'click':
-                print('4')
+        print(9)
 
-            if item_list[0] == 'xtend':
-                print('5')
+    elif item_list[3] == 'kit':
 
-        elif item_list[1] == 'yang':
-            print('6')
+        print(10)
+
 # print(item_list[0])
 # print(item_list[1])
 # print(item_list[2])
