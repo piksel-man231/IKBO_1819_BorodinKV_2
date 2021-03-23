@@ -1,8 +1,6 @@
 # inp = str(input())
-
-def f21(inp):
-
-    item_list = inp.split(' ')
+item_list = []
+def f21(item_list):
 
 # print('st 3 = ', inp)
 
@@ -10,7 +8,7 @@ def f21(inp):
 
         if item_list[0] == 'tcsh':
 
-            if  item_list[1] == '1994':
+            if item_list[1] == '1994':
                 print(0)
             elif item_list[1] == '2020':
                 print(1)
@@ -34,7 +32,6 @@ def f21(inp):
                 print(7)
             else:
                 print(8)
-
 
     elif item_list[3] == 'csv':
 
