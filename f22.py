@@ -54,6 +54,9 @@ def f22(a):
     list_final.append(list_d[0][0])
     # print(list_final[0][0])
     Final = ''.join(list_final)
+    Final = int(Final, 2)
+    print(Final)
+    Final = hex(Final)
     return Final
 
 
