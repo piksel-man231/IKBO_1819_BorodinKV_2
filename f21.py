@@ -46,3 +46,4 @@ def f21(item_list):
 # print(item_list[2])
 # print(item_list[3])
 # print(item_list)
+#f21(['http', 2019, 'diff', 'pawn'])
