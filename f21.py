@@ -8,38 +8,38 @@ def f21(item_list):
 
         if item_list[0] == 'tcsh':
 
-            if item_list[1] == '1994':
-                print(0)
-            elif item_list[1] == '2020':
-                print(1)
+            if item_list[1] == 1994:
+                return 0
+            elif item_list[1] == 2020:
+                return 1
             else:
-                print(2)
+                return 2
 
         elif item_list[0] == 'chuck':
 
             if item_list[2] == 'haml':
-                print(3)
+                return 3
             elif item_list[2] == 'toml':
-                print(4)
+                return 4
             else:
-                print(5)
+                return 5
 
         else:
 
-            if item_list[1] == '1994':
-                print(6)
-            elif item_list[1] == '2020':
-                print(7)
+            if item_list[1] == 1994:
+                return 6
+            elif item_list[1] == 2020:
+                return 7
             else:
-                print(8)
+                return 8
 
     elif item_list[3] == 'csv':
 
-        print(9)
+        return 9
 
-    elif item_list[3] == 'kit':
+    else:
 
-        print(10)
+        return 10
 
 # print(item_list[0])
 # print(item_list[1])
