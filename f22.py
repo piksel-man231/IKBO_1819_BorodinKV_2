@@ -53,11 +53,11 @@ def f22(a):
 
     list_final.append(list_d[0][0])
     # print(list_final[0][0])
-    Final = ''.join(list_final)
-    Final = int(Final, 2)
-    print(Final)
-    Final = hex(Final)
-    return Final
+    final = ''.join(list_final)
+    final = int(final, 2)
+    # print(final)
+    final = hex(final)
+    return final
 
 
 print(f22(0xa46740fb))
